@@ -1,0 +1,439 @@
+html:lang(ta) body {
+    font-family: 'Meera Inimai', sans-serif;
+    background: #f3f3f3;
+}
+
+html:lang(en) body {
+    font-family: 'Roboto', sans-serif !important;
+    background: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-blue {
+    color: blue;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.c-green-icon {
+    color: green;
+}
+
+.p-relative {
+    position: relative;
+}
+
+html:lang(en) h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Inter !important;
+}
+
+html:lang(ta) h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Meera Inimai', sans-serif !important;
+}
+
+
+
+/* Login css */
+
+
+.login-page {
+    /* background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(135deg, rgb(84,4,168),rgb(84, 4, 168)); */
+    background: #161032;
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+img.varuvaai-statue {
+    width: 100%;
+    max-width: 391px;
+    display: flex;
+    margin: 0px auto;
+}
+img.varuvaai-statues {
+    width: 100%;
+    max-width: 391px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.forgetPassword {
+    color: #fff;
+    float: right;
+}
+
+.button-submit:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 royalblue;
+}
+
+.button-submit:active {
+    transform: scale(0.9);
+}
+
+.button-submit {
+    position: relative;
+    display: inline-block;
+    color: #fff !important;
+    border-color: #fff !important;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: transparent;
+    transition: ease-out 0.5s;
+    border: 2px solid;
+    border-radius: 10em !important;
+    box-shadow: inset 0 0 0 0 blue;
+    margin: 20px 0 10px 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.or-with {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.fields {
+    margin-bottom: 15px;
+}
+
+.form-div {
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.aler {
+    color: red;
+    font-size: 13px;
+}
+
+.form-divs {
+    padding: 0px 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.sign-up {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.forgetPassword {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    font-size: 12px;
+}
+
+.or-with {
+    font-size: 12px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.steps{
+    color:'#fff'!important;
+}
+.custom-shape-divider-bottom-1712215419 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1712215419 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1712215419 .shape-fill {
+    fill: #FFFFFF;
+}
+.img.varuvaai {
+    width: 100%;
+    max-width: 230px;
+}
+
+h3.project-head {
+    font-family: "Indie Flower", cursive !important;
+}
+
+.project-head {
+    font-size: 25px;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin: 1rem auto;
+    color: #fffefe61;
+    background: -webkit-linear-gradient(left, #e6e6e6, #1d1c1c, #ffffff 80%);
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 110px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 1.5s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+
+  /* .project-head {
+    background: 50% 100% / 50% 50% no-repeat
+                radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+               glow 2500ms linear infinite 2000ms;
+}
+    @keyframes reveal {
+      80%{
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #fff;
+      }
+    } */
+  
+.client_login{
+ background: url('../images/starbucksbackground.webp');
+ background-color: rgba(255, 255, 255, 0.5);
+ width: 100%;
+ height: 100vh;
+ background-position: center;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.client_content {
+    /* position: relative;  */
+    width: auto;
+    height: auto;
+    color: white;
+  padding: 0px 30px 30px 30px;
+    background-color: rgba(34, 34, 34, 0.5); 
+
+    backdrop-filter: blur(10px); 
+}
+
+
+.client_content .content {
+    position: relative;
+    z-index: 1;
+}
+
+.product_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fieldsinput{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+
+.modalcontent{
+    color: white;
+
+    background: url('../images/starbucksbackground.webp');
+background-position: center;
+background-size: cover;
+    backdrop-filter: blur(10px); 
+}
+
+.modalinsidecontent{
+    background: url('../images/starbucksbackground.webp');
+    color: white;
+
+}
+
+/* google button */
+
+
+.starbucks-button {
+    background: #00704A;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid #00704A; /* Starbucks green color */
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: #fff; /* White text color by default */
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+/* timer css */
+
+.loader {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    border-top: 3px solid #4CAF50;
+    border-bottom: 3px solid #4CAF50;
+    position: relative;
+    background: linear-gradient(#4CAF50 20px, transparent 0) no-repeat;
+    background-size: 1px 30px;
+    background-position: 50% 0px;
+    animation: spinx 5s linear infinite;
+}
+
+.loader:before,
+.loader:after {
+    content: "";
+    width: 24px;
+    left: 50%;
+    height: 21px;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    background: rgba(76, 175, 80, 0.4);
+    border-radius: 0 0 12px 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    animation: lqt 5s linear infinite;
+}
+
+.loader:after {
+    top: auto;
+    bottom: 0;
+    border-radius: 12px 12px 0 0;
+    animation: lqb 5s linear infinite;
+}
+
+@keyframes lqt {
+    0%, 100% {
+        background-image: linear-gradient(#4CAF50 30px, transparent 0);
+        background-position: 0% 0px;
+    }
+
+    50% {
+        background-image: linear-gradient(#4CAF50 30px, transparent 0);
+        background-position: 0% 30px;
+    }
+
+    50.1% {
+        background-image: linear-gradient(#4CAF50 30px, transparent 0);
+        background-position: 0% -30px;
+    }
+}
+
+@keyframes lqb {
+    0% {
+        background-image: linear-gradient(#4CAF50 30px, transparent 0);
+        background-position: 0 30px;
+    }
+
+    100% {
+        background-image: linear-gradient(#4CAF50 30px, transparent 0);
+        background-position: 0 -30px;
+    }
+}
+
+@keyframes spinx {
+    0%, 49% {
+        transform: rotate(0deg);
+        background-position: 50% 22px;
+    }
+
+    51%, 98% {
+        transform: rotate(180deg);
+        background-position: 50% 2px;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        background-position: 50% 22px;
+    }
+}
+
+.container {
+    border: none;
+}
+
+.countdown-text {
+    background: black;
+}

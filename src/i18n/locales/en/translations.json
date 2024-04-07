@@ -1,0 +1,22 @@
+{
+    "commonPage": {
+        "UnderMaintenance": {
+            "pleaseContact": "If you need immediate assistance, please contact us",
+            "refresh": "Refresh",
+            "thankYouPatience": "Thank you for your patience.",
+            "underMaintenance": "Under maintenance",
+            "weApologize": "We apologize for the inconvenience, but our website is currently undergoing scheduled maintenance. We'll be back online as soon as possible."
+        },
+        "PageNotFound": {
+            "PageNotFoundTitle": "Page Not Found.",
+            "NotExists":"The page you are looking for does not exists.",
+            "ClickTheButton":"But you can click the button below to go back to the homepage.",
+            "HOME":"HOME"
+        },
+        "SessionTimeout":{
+            "SessionTimeoutTitle":"Session Timeout",
+            "SesstionMessgae":"You weren't clicking around any more, so we logged you out for security reasons. To get back in, just login again",
+            "Login":"Login"
+        }
+    }
+}

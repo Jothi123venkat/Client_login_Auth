@@ -1,0 +1,14 @@
+.sesstion_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+}
+img.img-fluid.gifimg {
+    width: 200px;
+}
+.log_btn_sesstion{
+    background: red !important;
+}
